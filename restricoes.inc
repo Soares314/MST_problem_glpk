@@ -1,0 +1,11 @@
+s.t. Aciclicidade_1: x[1,2] + x[2,3] <= 3;
+s.t. Aciclicidade_2: x[1,2] + x[1,4] + x[2,3] + x[2,4] + x[3,4] <= 4;
+s.t. Aciclicidade_3: x[1,2] + x[1,4] + x[2,3] + x[2,4] + x[3,4] + x[3,5] <= 5;
+s.t. Aciclicidade_4: x[1,2] + x[2,3] + x[3,5] <= 4;
+s.t. Aciclicidade_5: x[1,2] + x[1,4] + x[2,4] <= 3;
+s.t. Aciclicidade_6: x[1,4] + x[3,4] <= 3;
+s.t. Aciclicidade_7: x[1,4] + x[3,4] + x[3,5] <= 4;
+s.t. Aciclicidade_8: x[2,3] + x[2,4] + x[3,4] <= 3;
+s.t. Aciclicidade_9: x[2,3] + x[2,4] + x[3,4] + x[3,5] <= 4;
+s.t. Aciclicidade_10: x[2,3] + x[3,5] <= 3;
+s.t. Aciclicidade_11: x[3,4] + x[3,5] <= 3;
