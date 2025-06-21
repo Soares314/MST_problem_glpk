@@ -1,1 +1,0 @@
-# MST_problem_glpk
